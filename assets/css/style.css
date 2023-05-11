@@ -55,7 +55,40 @@ header a:hover {
 .banner h2 {
     display: flex;
     font-weight: 600;
-    padding: 10px;
+    padding: ;
     background-color: #6ACCDB;
     margin: 30px 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh 12vh;
+}
+
+main section {
+display: flex;
+justify-content: right;
+padding: 10px;
+text-align: left;
+}
+
+h3 {
+width: 10%;
+display: inline;
+text-align: right;
+align-items: top;
+padding: 20px;
+}
+
+section article {
+display: inline;
+padding-left: 50px;
+border-left: solid black 2px;
+width: 905;
+}
+
+article p {
+margin-bottom: 25px;
 }
