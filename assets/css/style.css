@@ -80,15 +80,39 @@ display: inline;
 text-align: right;
 align-items: top;
 padding: 20px;
+font-size: 2em;
 }
 
 section article {
 display: inline;
 padding-left: 50px;
 border-left: solid black 2px;
-width: 905;
+width: 90%;
 }
 
 article p {
 margin-bottom: 25px;
+}
+
+#work-cards {
+    }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.card {
+    background-image: url(/assets/images/card-image.jpg);
+    background-size: cover;
+    height: 100px;
 }
