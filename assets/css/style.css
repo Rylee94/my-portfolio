@@ -116,3 +116,9 @@ margin-bottom: 25px;
     background-size: cover;
     height: 100px;
 }
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+h3 {
+    width: 100%;        
+}
